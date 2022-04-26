@@ -1,0 +1,41 @@
+.trademc-buyform-input{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	border: 3px solid #A55A48;
+	border-radius: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.trademc-buyform-input:focus{
+	outline: 0;
+	border: 3px solid #FF9D6F;
+}
+.trademc-buyform-select select{
+	text-align: center;
+	cursor: pointer;
+	height: 50px;
+	width: 300px;
+	border: 3px solid #A55A48;
+	border-radius: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.trademc-buyform-select select:focus{
+	outline: 0;
+	border: 3px solid #FF9D6F;
+}
+.trademc-buyform-button{
+	text-align: center;
+	cursor: pointer;
+	height: 50px;
+	width: 300px;
+	border: 3px solid #A55A48;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.trademc-buyform-button:focus{
+	outline: 0;
+	border: 3px solid #FF9D6F;
+}
