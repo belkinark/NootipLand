@@ -37,7 +37,7 @@ body{
 	padding: 40px;
 }
 .zhdi{
-	background: #ACD3C8;
+	background: #D9765F;
 	padding: 200px;
 }
 .Voice{
@@ -51,4 +51,47 @@ body{
 .terra{
 	background: #E1F5A9;
 	padding: 100px;
+}
+.uspeh{
+	background: #E1F5A9;
+	padding: 300px;
+}
+.sticky{
+	background: #F8F9FA;
+	position: fixed;
+	height: 60px;
+}
+.ostrov{
+	background: #ECF6CE;
+	padding: 100px;
+	text-align: center;
+}
+
+
+
+
+
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}
+#element {
+  overflow-y: scroll;
+}
+#element::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f9f9fd;
+}
+
+#element::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #FE9A2E;
+}
+
+#element::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	background-color: #f9f9fd;
+	padding: 10px;
 }
