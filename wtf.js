@@ -19,6 +19,7 @@ let disp3 = document.querySelector("div[adapt-4]")
 let vd1 = document.querySelector("div[vd-1]")
 let vd2 = document.querySelector("div[vd-2]")
 let vd3 = document.querySelector("div[vd-3]")
+let ver = document.querySelector("div[ver-n]")
 document.addEventListener("DOMContentLoaded", function(event){
 	var widthWind = document.querySelector('body').offsetWidth;
 	console.log(widthWind)
@@ -27,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 		disp1.classList.remove("col-5")
 		disp2.classList.remove("col-5")
 		disp3.classList.remove("col-5")
+		ver.classList.add("flex-column")
 		document.querySelectorAll('h1').forEach(h1 => h1.remove());
 	}
 });
