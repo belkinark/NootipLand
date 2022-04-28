@@ -66,6 +66,10 @@ body{
 	padding: 100px;
 	text-align: center;
 }
+.video{
+	border-radius: 10px;
+	width: 100%;
+}
 @media screen and (max-width: 995px){
 	.te-min{
 		font-size: 23px;

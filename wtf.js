@@ -13,10 +13,19 @@ boton.onclick = () => {
 };
 
 let buy = document.querySelector("div[adapt]")
+let disp1 = document.querySelector("div[adapt-2]")
+let disp2 = document.querySelector("div[adapt-3]")
+let disp3 = document.querySelector("div[adapt-4]")
+let vd1 = document.querySelector("div[vd-1]")
+let vd2 = document.querySelector("div[vd-2]")
+let vd3 = document.querySelector("div[vd-3]")
 document.addEventListener("DOMContentLoaded", function(event){
 	var widthWind = document.querySelector('body').offsetWidth;
 	console.log(widthWind)
 	if (widthWind <= 995){
 		buy.classList.remove("col")
+		disp1.classList.remove("col-5")
+		disp2.classList.remove("col-5")
+		disp3.classList.remove("col-5")
 	}
 });
