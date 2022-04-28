@@ -27,5 +27,6 @@ document.addEventListener("DOMContentLoaded", function(event){
 		disp1.classList.remove("col-5")
 		disp2.classList.remove("col-5")
 		disp3.classList.remove("col-5")
+		document.querySelectorAll('h1').forEach(h1 => h1.remove());
 	}
 });

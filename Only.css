@@ -68,9 +68,24 @@ body{
 }
 .video{
 	border-radius: 10px;
+	text-align: center;
 	width: 100%;
 }
+@media screen and (min-width: 995px){
+	.video{
+		display: none;
+	}
+}
 @media screen and (max-width: 995px){
+	.Voice{
+		padding: 30px;
+	}
+	.create{
+		padding: 30px;
+	}
+	.terra{
+		padding: 30px;
+	}
 	.te-min{
 		font-size: 23px;
 		text-align: center;
@@ -80,6 +95,12 @@ body{
 	}
 	.na-min{
 		font-size: 13px;
+	}
+	.h-mob-txt{
+		font-size: 30px;
+	}
+	.mob-txt{
+		font-size: 20px;
 	}
 }
 
