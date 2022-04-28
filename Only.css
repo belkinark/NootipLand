@@ -1,5 +1,20 @@
+@font-face {
+	font-family: "HelveticaNeueCyr"; 
+	src: url("font/HelveticaNeueCyr-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+@font-face {
+	font-family: "Roboto-Light"; 
+	src: url("font/Roboto-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
 body{
 	margin: 0px;
+}
+*{
+	font-family: "Roboto-Light";
 }
 .d{
 	padding: 300px;
@@ -96,6 +111,9 @@ body{
 	.na-min{
 		font-size: 13px;
 	}
+	.naf-min{
+		font-size: 12px;
+	}
 	.h-mob-txt{
 		font-size: 30px;
 	}
@@ -103,7 +121,6 @@ body{
 		font-size: 20px;
 	}
 }
-
 
 
 
